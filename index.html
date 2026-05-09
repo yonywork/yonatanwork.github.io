@@ -31,7 +31,7 @@
             overflow-x: hidden;
         }
 
-        /* Animated background stars */
+        
         .stars {
             position: fixed;
             top: 0;
@@ -62,7 +62,7 @@
             z-index: 1;
         }
 
-        /* Navigation */
+       
         nav {
             position: fixed;
             top: 0;
@@ -113,7 +113,7 @@
             }
         }
 
-        /* Hero Section */
+    
         .hero {
             min-height: 100vh;
             display: flex;
@@ -256,7 +256,7 @@
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
         }
 
-        /* Sections */
+     
         section {
             padding: 5rem 0;
         }
@@ -351,7 +351,7 @@
             text-decoration: underline;
         }
 
-        /* Education */
+        
         .education-card {
             background: var(--card-bg);
             border: 1px solid var(--border);
@@ -388,7 +388,7 @@
             line-height: 1.7;
         }
 
-        /* Skills */
+        
         .skills-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -449,7 +449,7 @@
             transform: translateY(-2px);
         }
 
-        /* Footer */
+      
         footer {
             text-align: center;
             padding: 3rem 0;
@@ -527,10 +527,10 @@
 </head>
 <body>
 
-    <!-- Stars background -->
+  
     <div class="stars" id="stars"></div>
 
-    <!-- Navigation -->
+    
     <nav>
         <div class="nav-container">
             <a href="#" class="nav-logo">Yonatan.dev</a>
@@ -544,20 +544,20 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
+   
     <section class="hero" id="home">
         <div class="container">
             <div class="hero-content">
-                <!-- Photo Section with Yo.jpg -->
+                
                 <div class="avatar-wrapper">
                     <div class="avatar-ring"></div>
                     <div class="avatar-ring"></div>
                     <div class="avatar">
-                        <img src="Yo.jpg" alt="Yonatan Worku Amlaku">
+                        <img src="Yo.jpg" alt="YW">
                     </div>
                 </div>
 
-                <!-- Introduction -->
+               
                 <div class="hero-text">
                     <h1>Yonatan Worku Amlaku</h1>
                     <p class="title">Information Systems Student & Aspiring Developer</p>
@@ -584,7 +584,7 @@
         </div>
     </section>
 
-    <!-- About Section -->
+   
     <section id="about">
         <div class="container">
             <h2 class="section-title">👋 About Me</h2>
@@ -607,7 +607,7 @@
                     </p>
                 </div>
 
-                <!-- Quick Info Card -->
+               
                 <div class="info-card">
                     <div class="info-item">
                         <span class="info-icon">👤</span>
@@ -660,12 +660,12 @@
         </div>
     </section>
 
-    <!-- Education Section -->
+    
     <section id="education">
         <div class="container">
             <h2 class="section-title">🎓 Education</h2>
             <div class="education-card">
-                <span class="year-badge">2024 – 2027 (Expected)</span>
+                <span class="year-badge">2024 – 2027 </span>
                 <h3>Bachelor of Science in Information Systems</h3>
                 <p class="school">Bahir Dar Institute of Technology (BiT)</p>
                 <p class="description">
@@ -675,13 +675,13 @@
                     manage technology solutions.
                 </p>
                 <p class="description" style="margin-top: 0.75rem;">
-                    <strong>Year:</strong> 3rd Year | <strong>Expected Graduation:</strong> 2027
+                    <strong>Year:</strong> 3rd Year | <strong> Graduation:</strong> 2027
                 </p>
             </div>
         </div>
     </section>
 
-    <!-- Skills Section -->
+    
     <section id="skills">
         <div class="container">
             <h2 class="section-title">🛠️ Technical Skills</h2>
@@ -715,7 +715,7 @@
         </div>
     </section>
 
-    <!-- Interests Section -->
+    
     <section id="interests">
         <div class="container">
             <h2 class="section-title">💡 Interests & Goals</h2>
@@ -734,7 +734,7 @@
         </div>
     </section>
 
-    <!-- Footer -->
+  
     <footer>
         <div class="container">
             <p style="font-weight: 600; font-size: 1.2rem; color: var(--text);">Yonatan Worku Amlaku</p>
@@ -748,9 +748,9 @@
         </div>
     </footer>
 
-    <!-- Stars Animation Script -->
+    
     <script>
-        // Create animated stars background
+      
         const starsContainer = document.getElementById('stars');
         for (let i = 0; i < 100; i++) {
             const star = document.createElement('div');
@@ -764,7 +764,7 @@
             starsContainer.appendChild(star);
         }
 
-        // Smooth scroll reveal animation
+        
         const observerOptions = {
             threshold: 0.1,
             rootMargin: '0px 0px -50px 0px'
